@@ -18,7 +18,7 @@ pipeline {
     stage('Build Docker Image') {
       steps {
         script {
-          docker.build("username/imagename:tag")
+          docker.build("swapdockerhub/exampleapp")
         }
       }
     }
